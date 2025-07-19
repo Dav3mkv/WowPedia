@@ -1,0 +1,28 @@
+.fame{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 1250px;
+    position: relative;
+    top: -260px;
+    color: gold;
+    display: inline-block;
+
+}
+.fame::after{
+    content: "";
+    position: absolute;
+    right: -50px;
+    left: -50px;
+    bottom: -3px;
+    height: 2px;
+    background-color: gold;
+}
+.fame::before{  
+    content: "";
+    position: absolute;
+    right: -50px;
+    left: -50px;
+    top: -3px;
+    height: 2px;
+    background-color: gold;
+}

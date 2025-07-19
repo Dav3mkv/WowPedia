@@ -1,0 +1,11 @@
+.players{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 1335px;
+    position: relative;
+    display:inline-block;
+    list-style-type: none;
+    top: -285px;
+    color: gold;
+
+}

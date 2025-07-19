@@ -1,0 +1,93 @@
+nav {
+    background-image:url(https://blogs.nvidia.com/wp-content/uploads/2024/08/gfn-thursday-wow-clash-nv-blog-1280x680-no-copy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    
+}
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+nav li {
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px
+}
+
+nav a {
+color: black ;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+.title{ 
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 70px;
+    position: relative;
+    display: inline-block;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    left: -50px;
+    right: -50px;
+    bottom: -5px;
+    height: 2px;
+    background-color: gold;
+
+}
+.title::before{
+    content: "";
+    position: absolute;
+    top: -5px; 
+    left: -50px;
+    right: -50px;
+    height: 2px;
+    background-color: gold;   
+}
+.first{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: gold;
+    position: absolute;
+    display: inline-block;
+    margin-top: 1000px;
+}
+
+.second{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: gold;
+    margin-left: 20px    
+}
+
+
+.third{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+}
+
+body {
+    background-color: transparent;
+    background-image: url(https://wallpapercat.com/w/full/e/6/e/914345-3840x2160-desktop-4k-lich-king-wow-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
